@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://qsoblog.gq/"/>
-  <updated>2017-05-29T14:30:06.000Z</updated>
+  <updated>2017-05-13T08:05:29.000Z</updated>
   <id>https://qsoblog.gq/</id>
   
   <author>
@@ -14,32 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>日常更新</title>
-    <link href="https://qsoblog.gq/2017/05/29/post-5/"/>
-    <id>https://qsoblog.gq/2017/05/29/post-5/</id>
-    <published>2017-05-28T19:19:11.000Z</published>
-    <updated>2017-05-29T14:30:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="手别再颤抖">#手别再颤抖</h2>
-<p>博客好久都没有更新呢，原因是事情太多而且是一茬接着一茬的事情等着我去做，五月份是考试周，加上又有持续四周的课程设计。这次的课程设计是要我们用单片机实现一些功能电路原理图、程序什么的这些都不难因为都可以在百度上找到，万能的百度哟。<br>
-难的是自己焊板子，每当用烙铁头靠近管脚时我都会想到一首歌手别再颤抖<br>
-/outchain/2/478049385/</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=478049385&auto=1&height=66"></iframe>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;手别再颤抖&quot;&gt;#手别再颤抖&lt;/h2&gt;
-&lt;p&gt;博客好久都没有更新呢，原因是事情太多而且是一茬接着一茬的事情等着我去做，五月份是考试周，加上又有持续四周的课程设计。这次的课程设计是要我们用单片机实现一些功能电路原理图、程序什么的这些都不难因为都可以在百度上找到，万能的
-    
-    </summary>
-    
-    
-      <category term="闲言碎语" scheme="https://qsoblog.gq/tags/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD/"/>
-    
-  </entry>
   
   <entry>
     <title>随笔</title>
@@ -308,83 +282,6 @@ HTML CSS JS PHP和node.js都会一点，但是都不精。</p>
     
     
       <category term="关于" scheme="https://qsoblog.gq/tags/%E5%85%B3%E4%BA%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Hexo] Theme BeanTech</title>
-    <link href="https://qsoblog.gq/2017/03/18/hexo-theme-beantech/"/>
-    <id>https://qsoblog.gq/2017/03/18/hexo-theme-beantech/</id>
-    <published>2017-03-18T02:51:24.000Z</published>
-    <updated>2017-05-29T16:27:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>Ported Theme of <a href="https://github.com/Huxpro/huxpro.github.io" target="_blank" rel="external">Hux Blog</a>, Thank <a href="https://github.com/Huxpro" target="_blank" rel="external">Huxpro</a> for designing such a flawless theme.</p>
-<p>This BeanTech theme created by <a href="http://beantech.org" target="_blank" rel="external">YuHsuan</a> modified from the original Porter <a href="http://kaijun.rocks/hexo-theme-huxblog/" target="_blank" rel="external">Kaijun</a></p>
-</blockquote>
-<h1 id="live-demo"><a href="http://beantech.org" target="_blank" rel="external">Live Demo</a></h1>
-<hr>
-<p><img src="http://beantech.org/img/beantech-desktop.png" alt="BeanTech Desktop"></p>
-<h1 id="usage">Usage</h1>
-<hr>
-<p>I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!</p>
-<p>Let’s begin!!!</p>
-<h2 id="init">Init</h2>
-<hr>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech</div><div class="line"><span class="built_in">cd</span> hexo-beantech</div><div class="line">npm install</div></pre></td></tr></table></figure>
-<h2 id="modify">Modify</h2>
-<hr>
-<p>Modify <code>_config.yml</code> file with your own info.<br>
-Especially the section:</p>
-<h3 id="deployment">Deployment</h3>
-<p>Replace to your own repo!</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="attr">https://github.com/&lt;yourAccount&gt;/&lt;repo&gt;</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">&lt;your-branch&gt;</span></div></pre></td></tr></table></figure>
-<h3 id="sidebar-settings">Sidebar settings</h3>
-<p>Copy your avatar image to <code>&lt;root&gt;/img/</code> and modify the <code>_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">sidebar:</span> <span class="literal">true</span>    <span class="comment"># whether or not using Sidebar.</span></div><div class="line"><span class="attr">sidebar-about-description:</span> <span class="string">"&lt;your description&gt;"</span></div><div class="line"><span class="attr">sidebar-avatar:</span> <span class="string">img/&lt;your</span> <span class="string">avatar</span> <span class="string">path&gt;</span></div></pre></td></tr></table></figure>
-<p>and activate your personal widget you like</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="attr">widgets:</span>         <span class="comment"># here are widget you can use, you can comment out</span></div><div class="line"><span class="bullet">-</span> <span class="string">featured-tags</span></div><div class="line"><span class="bullet">-</span> <span class="string">short-about</span></div><div class="line"><span class="bullet">-</span> <span class="string">recent-posts</span></div><div class="line"><span class="bullet">-</span> <span class="string">friends-blog</span></div><div class="line"><span class="bullet">-</span> <span class="string">archive</span></div><div class="line"><span class="bullet">-</span> <span class="string">category</span></div></pre></td></tr></table></figure>
-<p>if you want to add sidebar widget, please add at <code>layout/_widget</code>.</p>
-<h3 id="signature-setup">Signature Setup</h3>
-<p>Copy your signature image to <code>&lt;root&gt;/img/signature</code> and modify the <code>_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="attr">signature:</span> <span class="literal">true</span>   <span class="comment"># show signature</span></div><div class="line"><span class="attr">signature-img:</span> <span class="string">img/signature/&lt;your-signature-ID&gt;</span></div></pre></td></tr></table></figure>
-<h3 id="go-to-top-icon-setup">Go to top icon Setup</h3>
-<p>My icon is using iron man, you can change to your own icon at <code>css/image</code>.</p>
-<h3 id="post-tag">Post tag</h3>
-<p>You can decide to show post tags or not.</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">home_posts_tag:</span> <span class="literal">true</span></div></pre></td></tr></table></figure>
-<p><img src="home_posts_tag-true.png" alt="home_posts_tag-true"></p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">home_posts_tag:</span> <span class="literal">false</span></div></pre></td></tr></table></figure>
-<p><img src="home_posts_tag-false.png" alt="home_posts_tag-false"></p>
-<h3 id="markdown-render">Markdown render</h3>
-<p>My markdown render engine plugin is <a href="https://github.com/celsomiranda/hexo-renderer-markdown-it" target="_blank" rel="external">hexo-renderer-markdown-it</a>.</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Markdown-it config</span></div><div class="line"><span class="comment">## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki</span></div><div class="line"><span class="attr">markdown:</span></div><div class="line"><span class="attr">  render:</span></div><div class="line"><span class="attr">    html:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    xhtmlOut:</span> <span class="literal">false</span></div><div class="line"><span class="attr">    breaks:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    linkify:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    typographer:</span> <span class="literal">true</span></div><div class="line"><span class="attr">    quotes:</span> <span class="string">'“”‘’'</span></div></pre></td></tr></table></figure>
-<p>and if you want to change the header anchor ‘ℬ’, you can go to <code>layout/post.ejs</code> to change it.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">async</span>(<span class="string">"https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        anchors.options = &#123;</div><div class="line">          <span class="attr">visible</span>: <span class="string">'hover'</span>,</div><div class="line">          <span class="attr">placement</span>: <span class="string">'left'</span>,</div><div class="line">          <span class="attr">icon</span>: ℬ <span class="comment">// this is the header anchor "unicode" icon</span></div><div class="line">        &#125;;</div></pre></td></tr></table></figure>
-<h2 id="hexo-basics">Hexo Basics</h2>
-<hr>
-<p>Some hexo command:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo new post <span class="string">"&lt;post name&gt;"</span> <span class="comment"># you can change post to another layout if you want</span></div><div class="line">hexo clean &amp;&amp; hexo generate <span class="comment"># generate the static file</span></div><div class="line">hexo server <span class="comment"># run hexo in local environment</span></div><div class="line">hexo deploy <span class="comment"># hexo will push the static files automatically into the specific branch(gh-pages) of your repo!</span></div></pre></td></tr></table></figure>
-<h1 id="have-fun-_">Have fun ^_^</h1>
-<hr>
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Place this tag where you want the button to render. -->
-<p>Please <a class="github-button" href="https://github.com/YenYuHsuan/hexo-theme-beantech" data-icon="octicon-star" aria-label="Star YenYuHsuan/hexo-theme-beantech on GitHub" target="_blank" rel="external">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/YenYuHsuan" aria-label="Follow @YenYuHsuan on GitHub" target="_blank" rel="external">Follow</a> would also be appreciated!<br>
-Peace!</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;Ported Theme of &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hux Blog&lt;/a&gt;, Thank &lt;a h
-    
-    </summary>
-    
-    
-      <category term="Hexo" scheme="https://qsoblog.gq/tags/Hexo/"/>
-    
-      <category term="Blog" scheme="https://qsoblog.gq/tags/Blog/"/>
     
   </entry>
   
