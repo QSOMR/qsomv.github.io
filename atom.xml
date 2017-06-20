@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://qsoblog.gq/"/>
-  <updated>2017-06-05T15:23:23.000Z</updated>
+  <updated>2017-06-20T13:44:04.000Z</updated>
   <id>https://qsoblog.gq/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="https://qsoblog.gq/2017/05/30/post-5/"/>
     <id>https://qsoblog.gq/2017/05/30/post-5/</id>
     <published>2017-05-30T04:31:27.000Z</published>
-    <updated>2017-06-05T15:23:23.000Z</updated>
+    <updated>2017-06-20T13:44:04.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="手别再颤抖">#手别再颤抖</h2>
 <p>五月份是考试周，加上又有持续四周的课程设计。所以这个月都没有时间更新博客，恰逢端午节放假，就好好利用这个假期写写博客。<br>
-<img src="http://oqr5bs7k6.bkt.gdipper.com/17-5-30/8169933.jpg" alt="屈原"></p>
+<img src="quyuan.jpg" alt="屈原"></p>
 <p>这次的课程设计需要我们自己动手焊板子。对于像我这样的手残党而言，焊板子是个技术活。每当我用用烙铁头靠近管脚时，我都会想到一句歌词</p>
 <blockquote>
 <p>手别再颤抖 别再梦游<br>
@@ -33,7 +33,7 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/oknMWGH6Df4" frameborder="0" allowfullscreen></iframe>
 <h2 id="白银祭司">#白银祭司</h2>
 <p>我每做一个东西习惯性地都会为它起个名字，这样就会促使我将它做到完美。这次的板子也不例外，我为它取名为白银祭司，原谅我取了这么一个中二的名字，至于为什么要取这个名字呢，我来一组图你感受一下。<br>
-<img src="http://oqr5bs7k6.bkt.gdipper.com/17-6-5/71397889.jpg" alt="组图1"><br>
+<img src="project.jpg" alt="组图1"><br>
 别人做的板子都用的皮包线，而我用的都是裸线，满满的银色看起来是不是一种视觉享受呢。但是这样做就会带来一问题那就是两个裸线很有可能会触碰在一起这样就会带来短路等问题。为了避免这种问题我开了一个脑洞给两个相交线来了个“空中架桥”。真佩服我的机智。感觉板子快被我玩坏了。</p>
 <h2 id="学习感悟">#学习感悟</h2>
 <p>虽然，我们这学期学习了单片机这门课，也看了许多单片机程序实例。但是通过这次课程设计才发现只有动手才会学到更多。</p>
@@ -43,7 +43,8 @@
     
       &lt;h2 id=&quot;手别再颤抖&quot;&gt;#手别再颤抖&lt;/h2&gt;
 &lt;p&gt;五月份是考试周，加上又有持续四周的课程设计。所以这个月都没有时间更新博客，恰逢端午节放假，就好好利用这个假期写写博客。&lt;br&gt;
-&lt;img src=&quot;http://oqr5bs7k6.bkt.gdipper.com/17-
+&lt;img src=&quot;quyuan.jpg&quot; alt=&quot;屈原&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这次的课程设计
     
     </summary>
     
@@ -57,12 +58,12 @@
     <link href="https://qsoblog.gq/2017/05/10/post-4/"/>
     <id>https://qsoblog.gq/2017/05/10/post-4/</id>
     <published>2017-05-10T15:17:57.000Z</published>
-    <updated>2017-05-30T12:00:07.000Z</updated>
+    <updated>2017-06-20T13:47:17.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>Life is a box of chocalate, you don‘t know what you are gonna get.</p>
 </blockquote>
-<p><img src="http://oqr5bs7k6.bkt.gdipper.com/17-5-30/5660245.jpg" alt="马卡龙"></p>
+<p><img src="macaroon.jpg" alt="马卡龙"></p>
 <h2 id="生活就像一盒巧克力">#生活就像一盒巧克力</h2>
 <p>Life is a box of chocalate, you don‘t know what you are gonna get.这是《阿甘正传》中阿甘妈妈的一句台词非常的有哲理。它的大意是：生活就像一盒巧克力，你永远不知道下一个会是什么味道。</p>
 <p>人生也是，你不知道明天，甚至是下一分钟，你的人生将发生什么改变。有时候生活就是爱开玩笑，当你已经为自己的人生做好规划时他总是在背后给你一个措手不及，比如突如其来的疾病，一场糟糕的考试，一次无聊的争吵。</p>
@@ -80,7 +81,7 @@
       &lt;blockquote&gt;
 &lt;p&gt;Life is a box of chocalate, you don‘t know what you are gonna get.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://oqr5bs7k6.bkt.gdipp
+&lt;p&gt;&lt;img src=&quot;macaroon.jpg&quot; alt=&quot;马卡龙&quot;&gt;&lt;/
     
     </summary>
     
@@ -94,7 +95,7 @@
     <link href="https://qsoblog.gq/2017/05/03/post-3/"/>
     <id>https://qsoblog.gq/2017/05/03/post-3/</id>
     <published>2017-05-03T11:50:53.000Z</published>
-    <updated>2017-05-11T04:18:07.000Z</updated>
+    <updated>2017-06-20T12:48:27.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="剧情简介">#剧情简介</h2>
 <p>“科幻之父”雷德利-斯科特将为他所开创的《异形》系列带来新篇章。《异形：契约》的故事发生在《普罗米修斯》10年后，一群新的宇航员乘坐着“契约号”飞船前往遥远的星系寻找殖民地，他们来到一处看似天堂般的星球，实则是黑暗、危险的地狱，在那里他们见到了“普罗米修斯”号唯一的幸存者——由迈克尔·法斯宾德饰演的生化人大卫，一场毁灭性的巨大灾难即将到来。</p>
@@ -122,7 +123,7 @@
     <link href="https://qsoblog.gq/2017/04/29/post-2/"/>
     <id>https://qsoblog.gq/2017/04/29/post-2/</id>
     <published>2017-04-29T05:24:21.000Z</published>
-    <updated>2017-05-10T16:29:13.000Z</updated>
+    <updated>2017-06-20T13:51:01.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>前端程序员有两个必备的技能，第一个是搭建自己的博客网站，第二个就是会翻墙。<br>
@@ -157,7 +158,7 @@
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="string">addn-hosts=/etc/dnsmasq.host</span></div><div class="line"><span class="literal">no</span><span class="bullet">-resolv</span></div><div class="line"><span class="string">server=119.29.29.29</span></div><div class="line"><span class="string">server=202.141.162.123</span></div><div class="line"><span class="string">server=/google.com/202.141.162.123</span></div></pre></td></tr></table></figure>
 <p>修改后<code>:wq!</code>保存,输入<code>service dnsmasq restart</code>DNS服务器就已经运行了。然后就是在你的客户端里修改DNS地址，将其修改为你的服务器的IP地址。</p>
 <p>以下是ios修改DNS的地方，android和windows自行百度吧。</p>
-<p><img src="http://i2.muimg.com/567571/ad825d34faaed337.png" alt="DNS"></p>
+<p><img src="dns.png" alt="DNS"></p>
 <p>这里我要列举国内的一些DNS服务器源：</p>
 <p>一、<a href="114dns.com/">114DNS</a><br>
 百度家无节操的东西，最近搞广告劫持</p>
@@ -228,7 +229,7 @@ SDNS是由中国互联网络信息中心（CNNIC）与国内外电信运营商�
     <link href="https://qsoblog.gq/2017/04/14/post-1/"/>
     <id>https://qsoblog.gq/2017/04/14/post-1/</id>
     <published>2017-04-14T08:13:34.000Z</published>
-    <updated>2017-04-15T06:07:35.000Z</updated>
+    <updated>2017-06-20T13:50:57.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="起因">#起因</h2>
 <p>在2015年三月份的谷歌大会上Gary Illyes表示，使用HTTPS协议的站点在搜索引擎排名上较HTTP站点更具优势。换句话说HTTPS站点的搜索排名将高于HTTP站点。</p>
@@ -264,7 +265,7 @@ HTTPS连接经常用于万维网上的交易支付和企业信息系统中敏感
 </ol>
 <h2 id="为你的网站加盐吧">#为你的网站加盐吧</h2>
 <p>为了提高我的网站的逼格，并且响应我大谷歌的号召，我必须跟上潮流为我的网站加盐。现在我的博客网站已经全站加密了，所以大家可以放心大胆的访问。<br>
-<img src="http://i1.piimg.com/567571/4b9a7603f6521ad9.png" alt="网站截图"></p>
+<img src="https.png" alt="网站截图"></p>
 ]]></content>
     
     <summary type="html">
@@ -285,7 +286,7 @@ HTTPS连接经常用于万维网上的交易支付和企业信息系统中敏感
     <link href="https://qsoblog.gq/2017/04/11/about/"/>
     <id>https://qsoblog.gq/2017/04/11/about/</id>
     <published>2017-04-10T20:11:57.000Z</published>
-    <updated>2017-05-13T13:06:26.000Z</updated>
+    <updated>2017-06-20T13:50:56.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>Don’t aim for success if you really want it.Just stick to what you love and believe in,and it will come naturally</p>
@@ -301,7 +302,7 @@ HTTPS连接经常用于万维网上的交易支付和企业信息系统中敏感
 <li>添加订阅源到RSS阅读器：<a href="https://qsoblog.gq/atom">https://qsoblog.gq/atom</a></li>
 <li>下载&quot;即刻&quot;APP，点击关注我创建的提醒: <a href="http://m.okjike.com/topics/5915c964b675f200114b310c?username=d946312a-648f-4f6c-81e5-b786e83c3316" target="_blank" rel="external">Qso Blog更新提醒</a></li>
 </ul>
-<p><img src="http://i4.buimg.com/588926/a9c3c3354d81f842.png" alt="即刻"></p>
+<p><img src="about.png" alt="即刻"></p>
 <h2 id="个人介绍">#个人介绍</h2>
 <p>本人理工男，爱刷机是忠实的谷歌粉，坚决抵制ios<br>
 HTML CSS JS PHP和node.js都会一点，但是都不精。</p>

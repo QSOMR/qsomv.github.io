@@ -7,8 +7,22 @@
     </url>
     
     <url>
+        <loc>https://qsoblog.gq/tags/</loc>
+        <lastmod>2017-06-20T13:17:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://qsoblog.gq/about/</loc>
-        <lastmod>2017-05-29T14:20:59.000Z</lastmod>
+        <lastmod>2017-06-20T13:07:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://qsoblog.gq/archive/</loc>
+        <lastmod>2017-06-20T12:52:35.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -22,20 +36,6 @@
     
     <url>
         <loc>https://qsoblog.gq/404.html</loc>
-        <lastmod>2017-04-11T11:17:44.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://qsoblog.gq/archive/</loc>
-        <lastmod>2017-04-11T11:17:44.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://qsoblog.gq/tags/</loc>
         <lastmod>2017-04-11T11:17:44.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
