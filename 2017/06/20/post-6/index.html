@@ -236,9 +236,11 @@
 <li>单进程，单线程，只支持单核CPU，不能充分的利用多核CPU服务器。</li>
 <li>事件驱动与非阻塞的I/O，对高并发处理能力强。</li>
 </ul>
-<h2 id="nodejs的安装">#Node.js的安装</h2>
+<h1 id="nodejs的安装">Node.js的安装</h1>
+<hr>
 <p>Node.js的兼容性非常的强，Windows、Linux、Mac都可以安装。所以这也是它迅速在前端世界里迅速流行的一个重要因素。</p>
-<h2 id="windows安装nodejs">##Windows安装Node.js</h2>
+<h2 id="windows安装nodejs">Windows安装Node.js</h2>
+<hr>
 <p>进人<a href="https://nodejs.org/en/" target="_blank" rel="external">nodejs</a>官网,它已经自动为我们选择好对应系统的Node.js的两个版本：</p>
 <p>Download for Windows (x64)</p>
 <ul>
@@ -246,19 +248,22 @@
 <li>V8.1.2 Current Latest Features</li>
 </ul>
 <p>我个人觉得使用V6.11.0 LTS的长期更新版本就可以了，但是如果你喜欢尝鲜也可以使用最新版本。这两个都是msi格式的文件，下载后可以傻瓜式地安装，并且会自动地将系统的环境变量PATH写好，以及装上相应版本的NPM（nodejs的插件包管理工具）。</p>
-<h2 id="linux安装nodejs">##Linux安装Node.js</h2>
+<h2 id="linux安装nodejs">Linux安装Node.js</h2>
+<hr>
 <p>因为我使用的是Ubuntu16.04（Yakkety）所以以下安装方法是基于Ubuntu系统而写。其他系统请自行百度</p>
 <p>我们需要依次运行以下命令安装Node.js</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install -y python-software-properties</div><div class="line">curl <span class="_">-s</span>L https://deb.nodesource.com/setup_6.x | sudo -E bash –</div><div class="line">sudo apt-get install -y nodejs</div></pre></td></tr></table></figure>
 <p>安装好后可以用<code>node -v</code>和<code>npm -v</code>检查一下是否安装成功</p>
-<h2 id="nodejs爬虫小试牛刀">#Node.js爬虫小试牛刀</h2>
+<h1 id="nodejs爬虫小试牛刀">Node.js爬虫小试牛刀</h1>
+<hr>
 <p>一个简单的网页爬虫需要以下的几个步骤和模块：</p>
 <ul>
 <li>获取网页内容（http\request\superagent等）</li>
 <li>筛选网页信息（cheerio）</li>
 <li>输出或存储信息（console\fs\mongodb等）</li>
 </ul>
-<h2 id="http模块分析">##http模块分析</h2>
+<h2 id="http模块分析">http模块分析</h2>
+<hr>
 <p>我觉得要对http模块进行系统学习的最好办法就是阅读<a href="http://nodejs.cn/api/http.html" target="_blank" rel="external">官方文档</a>，有个大概的印象后以后学习就容易多了。</p>
 <p>我们这次用的是http.get(options[, callback])类。根据官方文档的介绍：</p>
 <ul>
@@ -281,27 +286,32 @@ http.request() 返回一个 http.ClientRequest 类的实例。 ClientRequest 实
 <li>发送 ‘Expect’ 请求头会立即发送请求头。 通常情况下，当发送 ‘Expect: 100-continue’ 时，超时时间与 continue 事件的监听器都需要被设置。</li>
 <li>发送 Authorization 请求头会替代 auth 选项计算基本身份验证。</li>
 </ul>
-<h2 id="cheerio模块分析">##cheerio模块分析</h2>
+<h2 id="cheerio模块分析">cheerio模块分析</h2>
+<hr>
 <p>简单来说，cheerio就是服务器端的jQuery，去掉了jQuery的一些效果类和请求类等等功能后，仅保留核心对dom操作的部分，因此能够对dom进行和jQuery一样方便的操作。它是我们筛选数据的利器——把多余的html标签去掉，只留下我们想要的内容的重要工具。<br>
 cheerio的类特别多，这里我只介绍几个常用的。</p>
-<h2 id="attrname-value">###.attr(name[, value])</h2>
+<h3 id="attrname-value">.attr(name[, value])</h3>
+<hr>
 <blockquote>
 <p>这个方法可以获取和设置属性，第二个参数是可选的。<br>
 当第二个参数不存在时表示获取属性的值，当有带有第二个参数时，表示设置属性的值。<br>
 如果设置一个属性的值设置为null ，则删除该属性。如下示例</p>
 </blockquote>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="string">var</span> <span class="string">html</span> <span class="string">=</span> <span class="string">'&lt;ul id="fruits"&gt;'</span> <span class="string">+</span></div><div class="line">    <span class="string">'   &lt;li class="apple"&gt;Apple&lt;/li&gt;'</span> <span class="string">+</span></div><div class="line">    <span class="string">'   &lt;li class="orange"&gt;Orange&lt;/li&gt;'</span> <span class="string">+</span></div><div class="line">    <span class="string">'   &lt;li class="pear"&gt;Pear&lt;/li&gt;'</span> <span class="string">+</span></div><div class="line">    <span class="string">'&lt;/ul&gt;'</span><span class="string">;</span></div><div class="line"><span class="string">var</span> <span class="string">cheerio</span> <span class="string">=</span> <span class="string">require('cheerio'),</span></div><div class="line"><span class="string">$</span> <span class="string">=</span> <span class="string">cheerio.load(html);</span></div><div class="line"></div><div class="line"><span class="string">$('ul').attr('id')</span></div><div class="line"><span class="string">&gt;=&gt;</span> <span class="string">fruits</span></div><div class="line"> </div><div class="line"><span class="string">$('.apple').attr('id',</span> <span class="string">'favorite'</span><span class="string">).html()</span></div><div class="line"><span class="string">&gt;=&gt;</span> <span class="string">&lt;li</span> <span class="string">class="apple"</span> <span class="string">id="favorite"&gt;Apple&lt;/li&gt;</span></div></pre></td></tr></table></figure>
-<h2 id="mapfunctionindex-element">###.map(function(index, element){…})</h2>
+<h3 id="mapfunctionindex-element">.map(function(index, element){…})</h3>
+<hr>
 <blockquote>
 <p>和jquery类似的 each 迭代器，对每一个元素进行处理并返回一个值。</p>
 </blockquote>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="string">$('li').map(function(i,</span> <span class="string">el)</span> <span class="string">&#123;</span></div><div class="line">    <span class="string">//</span> <span class="string">this</span> <span class="string">===</span> <span class="string">el</span></div><div class="line">    <span class="string">return</span> <span class="string">$(this).attr('class');</span></div><div class="line"><span class="string">&#125;).get().join(',</span> <span class="string">'); //=&gt; apple, orange, pear</span></div></pre></td></tr></table></figure>
-<h2 id="findselector">###.find(selector)</h2>
+<h3 id="findselector">.find(selector)</h3>
+<hr>
 <blockquote>
 <p>在某元素下查询满足选择条件的元素。</p>
 </blockquote>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="string">$('#fruits').find('li').length;</span></div><div class="line"><span class="string">//=&gt;</span> <span class="number">3</span></div></pre></td></tr></table></figure>
-<h2 id="npm模块">##npm模块</h2>
+<h2 id="npm模块">npm模块</h2>
+<hr>
 <p>实现效果：爬取盐城工学院官网学校<a href="http://www.ycit.cn/sjzjxjs/listhtml/schoolimportnews.shtml" target="_blank" rel="external">新闻版块</a>的文章标题和原文链接，并将其输出。</p>
 <p>没有金刚钻，不揽瓷器活。我们需要引入以下几个模块</p>
 <ul>
@@ -309,7 +319,8 @@ cheerio的类特别多，这里我只介绍几个常用的。</p>
 <li>cheerio</li>
 </ul>
 <p>在工作文件夹里输入’npm install cheerio sync-request --save’这样模块救引入好了。</p>
-<h2 id="代码">##代码</h2>
+<h2 id="代码">代码</h2>
+<hr>
 <p>在程序开头引入模块：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="string">var</span> <span class="string">http</span> <span class="string">=</span> <span class="string">require('http');</span></div><div class="line"><span class="string">var</span> <span class="string">cheerio</span> <span class="string">=</span> <span class="string">require</span> <span class="string">('cheerio');</span></div><div class="line"><span class="string">var</span> <span class="string">url</span> <span class="string">=</span> <span class="string">'http://www.ycit.cn/sjzjxjs/listhtml/schoolimportnews.shtml'</span><span class="string">;</span></div></pre></td></tr></table></figure>
 <p>接着就是获取网页内容</p>
@@ -323,7 +334,8 @@ cheerio的类特别多，这里我只介绍几个常用的。</p>
 <p>附上该爬虫的运行结果<br>
 <img src="crawler.png" alt="crawler"><br>
 这个爬虫已发布到我的<a href="https://github.com/QSOMR/crawler" target="_blank" rel="external">github</a>上。</p>
-<h2 id="写在最后">#写在最后</h2>
+<h1 id="写在最后">写在最后</h1>
+<hr>
 <p>对于这个爬虫的扩展方向</p>
 <ul>
 <li>爬取单个文章页面的内容</li>
@@ -369,7 +381,7 @@ cheerio的类特别多，这里我只介绍几个常用的。</p>
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#前言"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">前言</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#nodejs的介绍"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">Node.js的介绍</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#nodejs的安装"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">#Node.js的安装</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#windows安装nodejs"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">##Windows安装Node.js</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#linux安装nodejs"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">##Linux安装Node.js</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#nodejs爬虫小试牛刀"><span class="toc-nav-number">2.4.</span> <span class="toc-nav-text">#Node.js爬虫小试牛刀</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#http模块分析"><span class="toc-nav-number">2.5.</span> <span class="toc-nav-text">##http模块分析</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#cheerio模块分析"><span class="toc-nav-number">2.6.</span> <span class="toc-nav-text">##cheerio模块分析</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#attrname-value"><span class="toc-nav-number">2.7.</span> <span class="toc-nav-text">###.attr(name[, value])</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#mapfunctionindex-element"><span class="toc-nav-number">2.8.</span> <span class="toc-nav-text">###.map(function(index, element){…})</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#findselector"><span class="toc-nav-number">2.9.</span> <span class="toc-nav-text">###.find(selector)</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#npm模块"><span class="toc-nav-number">2.10.</span> <span class="toc-nav-text">##npm模块</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#代码"><span class="toc-nav-number">2.11.</span> <span class="toc-nav-text">##代码</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#写在最后"><span class="toc-nav-number">2.12.</span> <span class="toc-nav-text">#写在最后</span></a></li></ol></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#前言"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">前言</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#nodejs的介绍"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">Node.js的介绍</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#nodejs的安装"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">Node.js的安装</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#windows安装nodejs"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">Windows安装Node.js</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#linux安装nodejs"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">Linux安装Node.js</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#nodejs爬虫小试牛刀"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">Node.js爬虫小试牛刀</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#http模块分析"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">http模块分析</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#cheerio模块分析"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">cheerio模块分析</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#attrname-value"><span class="toc-nav-number">4.2.1.</span> <span class="toc-nav-text">.attr(name[, value])</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#mapfunctionindex-element"><span class="toc-nav-number">4.2.2.</span> <span class="toc-nav-text">.map(function(index, element){…})</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#findselector"><span class="toc-nav-number">4.2.3.</span> <span class="toc-nav-text">.find(selector)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#npm模块"><span class="toc-nav-number">4.3.</span> <span class="toc-nav-text">npm模块</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#代码"><span class="toc-nav-number">4.4.</span> <span class="toc-nav-text">代码</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#写在最后"><span class="toc-nav-number">5.</span> <span class="toc-nav-text">写在最后</span></a></li></ol>
         
         </div>
       </aside>
