@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://qsoblog.ga/2017/09/28/post-4/</loc>
+        <lastmod>2017-09-28T15:00:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://qsoblog.ga/2017/09/28/post-3/</loc>
         <lastmod>2017-09-28T13:12:41.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,14 +25,6 @@
     <url>
         <loc>https://qsoblog.ga/2017/09/28/post-2/</loc>
         <lastmod>2017-09-28T13:06:27.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://qsoblog.ga/2017/09/28/post-4/</loc>
-        <lastmod>2017-09-28T11:58:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
