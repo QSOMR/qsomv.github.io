@@ -2,13 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://qsoblog.ga/tags/%E5%85%B3%E4%BA%8E/</loc>
-        <lastmod>2017-09-28T10:47:13.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://qsoblog.ga/tags/1080p/</loc>
         <lastmod>2017-09-28T11:45:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -46,6 +39,13 @@
     <url>
         <loc>https://qsoblog.ga/tags/1080p%E8%93%9D%E5%85%89/</loc>
         <lastmod>2017-09-28T15:00:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://qsoblog.ga/tags/%E5%85%B3%E4%BA%8E/</loc>
+        <lastmod>2017-09-28T15:32:55.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
