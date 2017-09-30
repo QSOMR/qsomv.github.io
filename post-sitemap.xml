@@ -7,8 +7,8 @@
     </url>
 
     <url>
-        <loc>https://qsoblog.ga/2017/09/28/post-4/</loc>
-        <lastmod>2017-09-29T12:47:03.000Z</lastmod>
+        <loc>https://qsoblog.ga/2017/09/28/post-2/</loc>
+        <lastmod>2017-09-30T04:25:26.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -16,7 +16,15 @@
 
     <url>
         <loc>https://qsoblog.ga/2017/09/28/post-5/</loc>
-        <lastmod>2017-09-29T12:27:08.000Z</lastmod>
+        <lastmod>2017-09-30T04:24:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://qsoblog.ga/2017/09/28/post-4/</loc>
+        <lastmod>2017-09-30T04:23:25.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,14 +41,6 @@
     <url>
         <loc>https://qsoblog.ga/2017/09/28/post-3/</loc>
         <lastmod>2017-09-28T13:12:41.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://qsoblog.ga/2017/09/28/post-2/</loc>
-        <lastmod>2017-09-28T13:06:27.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
