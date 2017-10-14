@@ -37,14 +37,7 @@
     </url>
 
     <url>
-        <loc>https://qsoblog.ga/tags/1080p/</loc>
-        <lastmod>2017-10-01T14:21:25.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://qsoblog.ga/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/</loc>
+        <loc>https://qsoblog.ga/tags/%E6%81%90%E6%80%96%E7%89%87/</loc>
         <lastmod>2017-10-01T14:30:17.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -58,8 +51,22 @@
     </url>
 
     <url>
-        <loc>https://qsoblog.ga/tags/%E6%81%90%E6%80%96%E7%89%87/</loc>
-        <lastmod>2017-10-01T14:30:17.000Z</lastmod>
+        <loc>https://qsoblog.ga/tags/%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/</loc>
+        <lastmod>2017-10-14T13:59:38.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://qsoblog.ga/tags/1080p/</loc>
+        <lastmod>2017-10-14T13:59:38.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://qsoblog.ga/tags/%E6%B8%AF%E7%89%87/</loc>
+        <lastmod>2017-10-14T13:59:38.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
